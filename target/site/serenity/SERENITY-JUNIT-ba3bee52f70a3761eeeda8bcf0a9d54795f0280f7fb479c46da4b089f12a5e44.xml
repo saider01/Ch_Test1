@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Academy Choucair" skipped="0" tests="1" time="20.0" timestamp="2021-06-04 08:39:24"><testcase name="Search for a automation course"><failure message="Expected answer&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected answer
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>Expected answer
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+co.com.choucair.certification.test1.stepdefinitions.ChoucairAcademyStepDefinitions.heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(ChoucairAcademyStepDefinitions.java:31)&#13;
+✽.he finds the course called resources Recursos Automatizacion Bancolombia(src/test/resources/features/academyChoucair.feature:9)&#13;
+</system-err></testcase></testsuite>

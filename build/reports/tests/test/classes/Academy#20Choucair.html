@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Academy Choucair</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Academy Choucair</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Academy Choucair</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">20.695s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Search for a automation course"></a>
+<h3 class="failures">Search for a automation course</h3>
+<span class="code">
+<pre>java.lang.AssertionError: Expected answer
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at co.com.choucair.certification.test1.stepdefinitions.ChoucairAcademyStepDefinitions.heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(ChoucairAcademyStepDefinitions.java:31)
+	at ✽.he finds the course called resources Recursos Automatizacion Bancolombia(src/test/resources/features/academyChoucair.feature:9)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Search for a automation course</td>
+<td class="failures">20.695s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4b81218d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3eeef810
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1a1dab1d
+Jun 04, 2021 8:39:25 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 38134
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 04, 2021 8:39:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2f974f3
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2021f472
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@11eaa3e3
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@40d321e6
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@fd07d0f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2452a7a3
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@446b7937
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7bdd087b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform [Antonio search [Antonio clicks on selecciona cursos y certificaciones]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6fefe98e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform [Antonio search [Antonio clicks on selecciona cursos y certificaciones, Antonio enters 'Recursos Automatizacion Bancolombia' into Buscar el curso]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4b2d5b8b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform [Antonio search [Antonio clicks on selecciona cursos y certificaciones, Antonio enters 'Recursos Automatizacion Bancolombia' into Buscar el curso, Antonio clicks on Da click para buscar el curso]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@232a8df4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform [Antonio search [Antonio clicks on selecciona cursos y certificaciones, Antonio enters 'Recursos Automatizacion Bancolombia' into Buscar el curso, Antonio clicks on Da click para buscar el curso, Antonio clicks on Da click para seleccionar el curso]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform [Antonio search [Antonio clicks on selecciona cursos y certificaciones, Antonio enters 'Recursos Automatizacion Bancolombia' into Buscar el curso, Antonio clicks on Da click para buscar el curso, Antonio clicks on Da click para seleccionar el curso]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform [Antonio search [Antonio clicks on selecciona cursos y certificaciones, Antonio enters 'Recursos Automatizacion Bancolombia' into Buscar el curso, Antonio clicks on Da click para buscar el curso, Antonio clicks on Da click para seleccionar el curso]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@a6bccea
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@60e2b17e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform [Antonio search [Antonio clicks on selecciona cursos y certificaciones, Antonio enters 'Recursos Automatizacion Bancolombia' into Buscar el curso, Antonio clicks on Da click para buscar el curso, Antonio clicks on Da click para seleccionar el curso]], Then he finds the course called resources Recursos Automatizacion Bancolombia [Then answer]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform [Antonio search [Antonio clicks on selecciona cursos y certificaciones, Antonio enters 'Recursos Automatizacion Bancolombia' into Buscar el curso, Antonio clicks on Da click para buscar el curso, Antonio clicks on Da click para seleccionar el curso]], Then he finds the course called resources Recursos Automatizacion Bancolombia [Then answer]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Search for a automation course:Given that Antonio wants to learn automation at the academy Choucair [Antonio open up [Antonio opens the Choucair academy page], Antonio login [Antonio clicks on button that shows the form to login, Antonio enters '1214714327' into where do write the user, Antonio enters 'Choucair2021*' into where do write the password, Antonio clicks on button to confirm login]], When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform [Antonio search [Antonio clicks on selecciona cursos y certificaciones, Antonio enters 'Recursos Automatizacion Bancolombia' into Buscar el curso, Antonio clicks on Da click para buscar el curso, Antonio clicks on Da click para seleccionar el curso]], Then he finds the course called resources Recursos Automatizacion Bancolombia [Then answer]]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Search for a automation course
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then answer
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected answerExpected: is &lt;true&gt; but: was &lt;false&gt;
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8</a> at Jun 4, 2021, 8:39:46 PM</p>
+</div>
+</div>
+</body>
+</html>
