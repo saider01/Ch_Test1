@@ -85,21 +85,21 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@3b780514
+<pre>REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@710cfc7e
 
 ?[31mFailed scenarios:?[0m
 ?[31msrc/test/resources/features/academyChoucair.feature:6 ?[0m# Search for a automation course
 
 1 Scenarios (?[31m1 failed?[0m)
 3 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m1 passed?[0m)
-0m30.278s
+0m28.063s
 
 net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1149)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1229)
 	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$yQqyrEYd.performAs$accessor$89xSEZqq(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$O2ynneyI.performAs$accessor$zhV4tLpN(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -110,12 +110,12 @@ net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expect
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$yQqyrEYd.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$O2ynneyI.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
 	at co.com.choucair.certification.test1.tasks.Search.performAs(Search.java:20)
-	at co.com.choucair.certification.test1.tasks.Search$ByteBuddy$QazkwMSk.performAs$accessor$RZuEvG6T(Unknown Source)
+	at co.com.choucair.certification.test1.tasks.Search$ByteBuddy$zHesCcg3.performAs$accessor$x7zYccdU(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -126,20 +126,20 @@ net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expect
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at co.com.choucair.certification.test1.tasks.Search$ByteBuddy$QazkwMSk.performAs(Unknown Source)
+	at co.com.choucair.certification.test1.tasks.Search$ByteBuddy$zHesCcg3.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
 	at co.com.choucair.certification.test1.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(ChoucairAcademyStepDefinitions.java:31)
 	at ?.he search for the course on the choucair academy platform(src/test/resources/features/academyChoucair.feature:10)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //h4[contains(text(),'MetodologÃ­a Bancolombia')] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.id: //a[@id='yui_3_17_2_1_1622896234277_296']//strong to be enabled (tried for 5 second(s) with 100 milliseconds interval)
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1146)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1229)
 	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$yQqyrEYd.performAs$accessor$89xSEZqq(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$O2ynneyI.performAs$accessor$zhV4tLpN(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -150,12 +150,12 @@ Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: wait
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$yQqyrEYd.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$O2ynneyI.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
 	at co.com.choucair.certification.test1.tasks.Search.performAs(Search.java:20)
-	at co.com.choucair.certification.test1.tasks.Search$ByteBuddy$QazkwMSk.performAs$accessor$RZuEvG6T(Unknown Source)
+	at co.com.choucair.certification.test1.tasks.Search$ByteBuddy$zHesCcg3.performAs$accessor$x7zYccdU(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -166,7 +166,7 @@ Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: wait
 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
-	at co.com.choucair.certification.test1.tasks.Search$ByteBuddy$QazkwMSk.performAs(Unknown Source)
+	at co.com.choucair.certification.test1.tasks.Search$ByteBuddy$zHesCcg3.performAs(Unknown Source)
 	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
 	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
 	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
@@ -233,15 +233,15 @@ Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: wait
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h4[contains(text(),'MetodologÃ­a Bancolombia')]&quot;}
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#\/\/a\[\@id\=\'yui_3_17_2_1_1622896234277_296\'\]\/\/strong&quot;}
   (Session info: chrome=91.0.4472.77)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LENOVOSLAG', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\Slag\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1251453fd95266bd021142e02b145450
-*** Element info: {Using=xpath, value=//h4[contains(text(),'MetodologÃ­a Bancolombia')]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\Slag\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf036f705f005502563693bfa779c243
+*** Element info: {Using=id, value=//a[@id='yui_3_17_2_1_1622896234277_296']//strong}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -253,8 +253,8 @@ Session ID: 1251453fd95266bd021142e02b145450
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
 	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:18)
@@ -311,7 +311,7 @@ TEST STARTED: Search for a automation course
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8</a> at Jun 5, 2021, 7:20:42 AM</p>
+<a href="http://www.gradle.org">Gradle 6.8</a> at Jun 5, 2021, 7:31:34 AM</p>
 </div>
 </div>
 </body>
